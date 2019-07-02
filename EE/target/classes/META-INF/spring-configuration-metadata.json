@@ -1,0 +1,35 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zyp.weixinsell.config.ProjectUrlConfig",
+      "name": "project-url",
+      "type": "com.zyp.weixinsell.config.ProjectUrlConfig"
+    },
+    {
+      "sourceType": "com.zyp.weixinsell.config.WechatAccountConfig",
+      "name": "wechat",
+      "type": "com.zyp.weixinsell.config.WechatAccountConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zyp.weixinsell.config.ProjectUrlConfig",
+      "name": "project-url.wechat-mp-authorize",
+      "description": "微信公众号授权回调路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zyp.weixinsell.config.WechatAccountConfig",
+      "name": "wechat.mp-app-id",
+      "description": "微信公众号appId",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zyp.weixinsell.config.WechatAccountConfig",
+      "name": "wechat.mp-app-secret",
+      "description": "微信公众号appSecret",
+      "type": "java.lang.String"
+    }
+  ]
+}
